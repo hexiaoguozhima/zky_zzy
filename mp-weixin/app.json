@@ -1,0 +1,67 @@
+{
+  "pages": [
+    
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园团购小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#ff0000"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/main.png",
+        "selectedIconPath": "static/tabs/main1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/pintuanshangpin/list",
+        "iconPath": "/static/tabs/gift.png",
+        "selectedIconPath": "/static/tabs/gift1.png",
+        "text": "拼团商品"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/active.png",
+        "selectedIconPath": "static/tabs/active1.png",
+        "text": "团购活动"
+      },
+      {
+        "pagePath": "pages/shop-cart/shop-cart",
+        "iconPath": "static/tabs/goods.png",
+        "selectedIconPath": "static/tabs/goods1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/person.png",
+        "selectedIconPath": "static/tabs/person1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
